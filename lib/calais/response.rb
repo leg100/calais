@@ -13,7 +13,7 @@ module Calais
     }
 
     attr_accessor :submitter_code, :signature, :language, :submission_date, :request_id, :doc_title, :doc_date
-    attr_accessor :hashes, :entities, :relations, :geographies, :categories, :socialtags, :relevances
+    attr_accessor :hashes, :entities, :relations, :geographies, :categories, :socialtags, :relevances, :raw_response
 
     def initialize(rdf_string)
       @raw_response = rdf_string
